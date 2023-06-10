@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StriverArrays/StriverArrays.iml" filepath="$PROJECT_DIR$/StriverArrays/StriverArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/StriverDSA.iml" filepath="$PROJECT_DIR$/StriverDSA.iml" />
     </modules>
   </component>
