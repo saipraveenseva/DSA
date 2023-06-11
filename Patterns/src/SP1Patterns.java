@@ -20,7 +20,7 @@ public class SP1Patterns {
 
         for(int i=0;i<5;i++) {                  // This repeats what is printed 5 times
             for (int j = 0; j < 5; j++) {
-                System.out.print("*");          // This prints *****
+                System.out.print("* ");          // This prints *****
             }
             System.out.println();               //After printing ***** we have to print the next 5 *'s in the next line.
         }
