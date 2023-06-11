@@ -6,7 +6,7 @@
 * *****
 * */
 
-public class SP1Patterns {
+public class SP1 {
     public static void main(String[] args) {
 
         //Logic section
