@@ -40,7 +40,7 @@ public class SP5 {
          * i=2 print * j=5-2=3 times
          * i=3 print * j=5-3=2 times
          * i=4 print * j=5-4=1 times
-         * Loop terminates at i=5
+         * Loop terminates at i=6
          * */
 
         //Display section

@@ -17,7 +17,7 @@ public class SP4 {
         * for i=3 j will print 3 3 3
         * for i=4 j will print 4 4 4 4
         * for i=5 j will print 5 5 5 5 5
-        * The loop terminates at <=5
+        * The loop terminates at i=6
         * */
 
         //Display section
