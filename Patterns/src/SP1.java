@@ -17,7 +17,6 @@ public class SP1 {
         * Then the i for loops repeats this 5 times. */
 
         //Display section
-
         for(int i=0;i<5;i++) {                  // This repeats what is printed 5 times
             for (int j = 0; j < 5; j++) {
                 System.out.print("* ");          // This prints *****
