@@ -19,10 +19,14 @@ public class SP8 {
          * 4 spaces 1 star
          * The formula would be
          * For spaces if i=0 print i spaces
-         * For stars n=5 then how can be make 5 to 9. It would be multiplying it with 2 minus 1.
-         * n*2-1
-         * for i=0 0 spaces 2*5-1=9 stars
-         * for i=1 1 space  2*5
+         * For stars n=5 then how can be make 5 to 9. It would be multiplying it with 2 minus something.
+         * n*2-something, that something is 2*i-1
+         * for i=0 0 spaces 2*5-1=9 stars 1 2*0+1
+         * for i=1 1 space  2*5-3=7 stars 3 2*1+1
+         * for i=2 2 spaces 2*5-5=5 stars 5 2*2+1
+         * for i=3 3 spaces 2*5-7=3 stars 7 2*3+1
+         * for i=4 4 spaces 2*5-9=1 star  9 2*4+1
+         *
          * */
 
         //Display section
