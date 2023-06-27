@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class MutipUsingRecursion {
@@ -8,7 +7,7 @@ public class MutipUsingRecursion {
             return;
         }
         else{
-            System.out.println(n +"*"+i+"="+n*i);
+            System.out.println(n +"x"+i+"="+n*i);
             MutliplicationTable(n,++i);
         }
 

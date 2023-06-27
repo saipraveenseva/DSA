@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Misc/Misc.iml" filepath="$PROJECT_DIR$/Misc/Misc.iml" />
       <module fileurl="file://$PROJECT_DIR$/StriverArrays/StriverArrays.iml" filepath="$PROJECT_DIR$/StriverArrays/StriverArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/StriverDSA.iml" filepath="$PROJECT_DIR$/StriverDSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/StriverPatterns.iml" filepath="$PROJECT_DIR$/Patterns/StriverPatterns.iml" />
