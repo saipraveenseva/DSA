@@ -3,3 +3,5 @@ Useful Notes https://books.goalkicker.com/
 stripe.com
 medium.com
 docs.emmet.io/cheetsheet
+
+July 3rd week DSA : https://practice.geeksforgeeks.org/explore?page=1&sprint=dd28b02c5cba3c4bc26f345b8237092f&status[]=solved&sortBy=latest&sprint_name=July%20Week%203
