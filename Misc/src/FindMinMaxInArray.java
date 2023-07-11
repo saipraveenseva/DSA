@@ -22,3 +22,17 @@ public class FindMinMaxInArray {
         System.out.println("max: "+max);
     }
 }
+
+/*
+        1005
+
+        1010
+        1011
+        0001
+
+
+
+ */
+
+
+
