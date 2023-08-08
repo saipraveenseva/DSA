@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.*;
 public class StringsBasics {
 
@@ -26,8 +25,9 @@ public class StringsBasics {
 
         for(int i=0;i<inputfullName.length();i++)
         {
-            System.out.println(inputfullName.charAt(i)); // print the string one by one.
+            System.out.println(inputfullName.charAt(i)); // prints the string one by one.
         }
+
 
     }
 }
