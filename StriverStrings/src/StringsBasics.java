@@ -28,6 +28,76 @@ public class StringsBasics {
             System.out.println(inputfullName.charAt(i)); // prints the string one by one.
         }
 
+        //String comparision
+
+        String s1="seva";
+        String s2="seva11";
+
+        //s1 > s2 : re"seva"turns a positive value
+        //s1 = s2 : returns 0
+        //s1 < s2 : return negative value
+        //s1=hello s2=bello : s1>s2
+        //s1=hello s2=hxllo : s1<s2
+
+        //compareTo()
+        if(s1.compareTo(s2)==0){
+            System.out.println("Strings are equal");
+        }
+        else {
+            System.out.println("NOT equal");
+        }
+
+        // why can't we use if(s1==s2)?
+        //In java often times during coding rounds, the strings input is taken as objects and the above statement would compare the objects instead os string.
+        // Below is a good example
+
+        if(new String("sai") == new String("sai")){
+            System.out.println("sai Strings are equal");
+        }
+        else {
+            System.out.println("NOT equal");
+        }
+
+        // Even tho both the inputs given are equal(sai). It displays NOT equal
+        //It is becoz it is comparing objects instead of strings.
+        // So using compareTo() is always recommended.
+
+        //.substring(index,index); Substrings
+        String s3 = "My name is Sai praveen Seva";
+        System.out.println(s3.substring(11,27)); // 27 index is not included
+        System.out.println(s3.substring(11,s3.length())); // s3.length index is not included
+        System.out.println(s3.substring(11)); // end index is optional. It considers until end of string.
+
+
+        //Strings are immutable. Contents of string cannot be modified.
+
+
+        //StringBuilder helps us to modify Strings
+
+        StringBuilder sb = new StringBuilder("Tony");
+        System.out.println(sb);
+
+        System.out.println(sb.charAt(0));
+        sb.setCharAt(0,'P');
+        System.out.println(sb); // Pony
+
+        sb.insert(0,'S');
+        System.out.println(sb); // SPony
+
+        sb.insert(3,'n');
+        System.out.println(sb); // SPonny
+
+        sb.delete(3,4);
+        System.out.println(sb); // SPony
+
+        sb.append(" Stark");
+        System.out.println(sb);
+        s3 = s3 + " bye";
+        System.out.println(s3);
+
+        System.out.println(sb.length());
+
+
 
     }
 }
