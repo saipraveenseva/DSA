@@ -1,3 +1,6 @@
+import com.sun.source.util.SourcePositions;
+
+import java.security.spec.RSAOtherPrimeInfo;
 import java.util.*;
 public class StringsBasics {
 
@@ -33,13 +36,15 @@ public class StringsBasics {
         String s1="seva";
         String s2="seva11";
 
-        //s1 > s2 : re"seva"turns a positive value
+        //s1 > s2 : retutns a positive value
         //s1 = s2 : returns 0
         //s1 < s2 : return negative value
         //s1=hello s2=bello : s1>s2
         //s1=hello s2=hxllo : s1<s2
 
         //compareTo()
+
+
         if(s1.compareTo(s2)==0){
             System.out.println("Strings are equal");
         }
@@ -97,6 +102,26 @@ public class StringsBasics {
 
         System.out.println(sb.length());
 
+        //Reverse a string
+
+        StringBuilder sb2 = new StringBuilder("Silver Stallion");
+
+        System.out.println(sb2);
+        int front;
+        int back;
+
+        for(int j=0; j<sb2.length()/2;j++){
+            front = j;
+            back = sb2.length()-1-j;
+
+             char frontChar = sb2.charAt(front);
+             char backChar = sb2.charAt(back);
+
+             sb2.setCharAt(front,backChar);
+             sb2.setCharAt(back,frontChar);
+        }
+
+        System.out.println(sb2);
 
 
     }
