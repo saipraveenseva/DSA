@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BeginnerDSA/BeginnerArray/BeginnerArray.iml" filepath="$PROJECT_DIR$/BeginnerDSA/BeginnerArray/BeginnerArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeginnerDSA/BeginnerDSA.iml" filepath="$PROJECT_DIR$/BeginnerDSA/BeginnerDSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Misc/Misc.iml" filepath="$PROJECT_DIR$/Misc/Misc.iml" />
       <module fileurl="file://$PROJECT_DIR$/StriverStrings/MiscStrings/MiscStrings.iml" filepath="$PROJECT_DIR$/StriverStrings/MiscStrings/MiscStrings.iml" />
       <module fileurl="file://$PROJECT_DIR$/StriverArrays/StriverArrays.iml" filepath="$PROJECT_DIR$/StriverArrays/StriverArrays.iml" />

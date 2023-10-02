@@ -93,6 +93,7 @@ public class StringsBasics {
         sb.delete(3,4);
         System.out.println(sb); // SPony
 
+
         sb.append(" Stark");
         System.out.println(sb);
         s3 = s3 + " bye";
