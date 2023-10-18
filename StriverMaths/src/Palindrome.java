@@ -1,8 +1,4 @@
-import com.sun.source.util.SourcePositions;
 
-import javax.sound.midi.Soundbank;
-import javax.xml.transform.SourceLocator;
-import java.sql.SQLOutput;
 
 public class Palindrome {
 
