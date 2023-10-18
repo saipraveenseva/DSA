@@ -1,8 +1,6 @@
 public class ReverseANumber {
 
-    public static void main(String[] args) {
-
-//  Logic to reverse a number using while loop
+    //  Logic to reverse a number using while loop
 //        int number = 987654, reverse = 0;
 //        while(number != 0)
 //        {
@@ -66,5 +64,21 @@ public class ReverseANumber {
 //            System.out.println();//new line
 //        }
 
+    public static void main(String[] args) {
+
+    int n=12;
+    int reverse=0;
+
+    while(n>0){
+        int remainder = n%10;
+        reverse = reverse * 10 + remainder;
+        n=n/10;
     }
+
+        System.out.println("Reverse is: "+reverse);
+    }
+
+    // This is just a simple reversal of an integer number.
+    // Reversing the binary equivalent is left for a later date.
+
 }
