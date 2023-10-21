@@ -7,7 +7,7 @@ public class RecusionBasics {
         }
         else{
             System.out.print(N+" ");
-            printfromN(--N);
+            printfromN(N-1);
         }
     }
 
