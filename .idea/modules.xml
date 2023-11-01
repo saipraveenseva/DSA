@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/POTD/POTD.iml" filepath="$PROJECT_DIR$/POTD/POTD.iml" />
       <module fileurl="file://$PROJECT_DIR$/StriverArrays/StriverArrays.iml" filepath="$PROJECT_DIR$/StriverArrays/StriverArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/StriverDSA.iml" filepath="$PROJECT_DIR$/StriverDSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StriverHash/StriverHash.iml" filepath="$PROJECT_DIR$/StriverHash/StriverHash.iml" />
       <module fileurl="file://$PROJECT_DIR$/StriverMaths/StriverMaths.iml" filepath="$PROJECT_DIR$/StriverMaths/StriverMaths.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns/StriverPatterns.iml" filepath="$PROJECT_DIR$/Patterns/StriverPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/StriverRecusrion/StriverRecusrion.iml" filepath="$PROJECT_DIR$/StriverRecusrion/StriverRecusrion.iml" />
