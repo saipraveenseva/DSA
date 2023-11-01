@@ -14,7 +14,7 @@ public class Hash {
 
         int hasharr[] = new int[10];
 
-//        Arrays.fill(hasharr,0);
+//        Arrays.fill(hasharr,0); hello
 //        System.out.println();
 ////        for(int i=0;i<hasharr.length;i++){
 ////            System.out.print(hasharr[i]+" ");

@@ -13,7 +13,7 @@ public class CharHash {     // 10^8 above hash array size is not supported. So w
         Arrays.fill(hasharr,0);
        System.out.println();
 //////        for(int i=0;i<hasharr.length;i++){
-//////            System.out.print(hasharr[i]+" ");
+//////            System.out.print(hasharr[i]+" ");   Hello
 //////        }
 
         for(int i=0;i<arr.length;i++){
