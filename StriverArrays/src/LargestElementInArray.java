@@ -1,4 +1,4 @@
-public class SA1LargestElementInArray {
+public class LargestElementInArray {
 
 //    Code to find out largest element in an array.
 public static void main(String[] args) {

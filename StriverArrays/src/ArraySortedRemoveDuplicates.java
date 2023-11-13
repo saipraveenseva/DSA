@@ -1,4 +1,4 @@
-public class SA4ArraySortedRemoveDuplicates {
+public class ArraySortedRemoveDuplicates {
     public static void main(String[] args) {
 
         int[] arr = new int[]{1,1,2,2,3,4,4};

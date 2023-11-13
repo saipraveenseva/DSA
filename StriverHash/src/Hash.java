@@ -14,19 +14,24 @@ public class Hash {
 
         int hasharr[] = new int[10];
 
-//        Arrays.fill(hasharr,0); hello
-//        System.out.println();
-////        for(int i=0;i<hasharr.length;i++){
-////            System.out.print(hasharr[i]+" ");
-////        }
-//
-//        for(int i=0;i<arr.length;i++){
-//            hasharr[arr[i]]++;
-//
-//        }
+        Arrays.fill(hasharr,0);
+        System.out.println();
 //        for(int i=0;i<hasharr.length;i++){
 //            System.out.print(hasharr[i]+" ");
 //        }
+
+        for(int i=0;i<arr.length;i++){
+            hasharr[arr[i]]++;
+
+        }
+        for(int i=0;i<10;i++){
+            System.out.print(i+" "); // Printing digits
+        }
+
+        System.out.println();
+        for(int i=0;i<hasharr.length;i++){
+            System.out.print(hasharr[i]+" "); // Printing frequency of the digits
+        }
 
     }
 }

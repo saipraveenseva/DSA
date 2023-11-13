@@ -1,4 +1,4 @@
-public class SA2SecondLargestElementInArray {
+public class SecondLargestElementInArray {
     public static void main(String[] args) {
 
         //Array Definition

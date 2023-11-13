@@ -1,4 +1,4 @@
-public class SA3CheckIfArraySorted {
+public class CheckIfArraySorted {
     public static void main(String[] args) {
         int[] arr = new int[]{1,2,9,4,8};
 
