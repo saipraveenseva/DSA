@@ -4,7 +4,7 @@ public class MoveZeroesRight {
 
         int j=-1;
         for(int p=0;p<arr.length;p++){
-            if(arr[p]==0){
+            if(arr[p]==0){          // Finding the location of first 0.
                 j=p;
                 break;
             }
@@ -16,7 +16,7 @@ public class MoveZeroesRight {
         }
         else{
 
-            for(int i=j+1;i<arr.length;i++){
+            for(int i=j+1;i<arr.length;i++){        // starting the traverse from i+1 if we find a non zero number then swap it with zero.
                 if(arr[i]!=0){
                     arr[i]=arr[i]+arr[j];
                     arr[j]=arr[i]-arr[j];
