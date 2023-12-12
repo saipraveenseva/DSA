@@ -5,14 +5,14 @@ public class MaxConsecutiveOnes {
         int maxcount=0;
         for(int i=0;i<n;i++){
             if(arr[i]==1){
-                count++;
-                maxcount=Math.max(maxcount,count);
-            }
+                count++;        // Find a 1, increment count by 1.
+                maxcount=Math.max(maxcount,count);      // maxcount holds the value of max number of ones.
+            }                                           // if count has more 1s than maxcount then make count as maxcount.
             else{
-                count=0;
+                count=0; // Find anything other 1 make the count to 0 and start fresh.
             }
         }
-        return maxcount;
+        return maxcount;        // return maxcount value which holds the max number of 1s.
 
     }
 
