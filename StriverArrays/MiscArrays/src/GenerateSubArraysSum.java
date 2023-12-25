@@ -13,9 +13,9 @@ public class GenerateSubArraysSum {
                     sum = sum + arr[k];
                 }
                 System.out.print("sum: " + sum);
-                if(sum==9){
-                    return;         // Displays the sub array with sum K.
-                }
+//                if(sum==9){
+//                    return;         // Displays the sub array with sum K.
+//                }
                 System.out.println();
             }
             System.out.println();
