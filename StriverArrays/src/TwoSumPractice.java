@@ -1,3 +1,4 @@
+import static java.lang.System.exit;
 
 /* Given an array. Find two elements whose sum is equal to the given target. */
 public class TwoSumPractice {
@@ -12,6 +13,7 @@ public class TwoSumPractice {
             for(int j=0; j<arr.length;j++){
                 if(arr[i] + arr[j] == target){
                     System.out.println(i+" "+j);
+                    exit(0); //Terminates the execution when it finds the first match.
                 }
             }
 
