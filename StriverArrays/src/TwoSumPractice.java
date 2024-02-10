@@ -16,7 +16,7 @@ public class TwoSumPractice {
             }
 
         }
-        System.out.println("No two sum found");
+
 
     }
 
