@@ -17,8 +17,8 @@ public class TwoSumOptimal {
 
     public static int[] TwoSumOptimal(int[] arr,int target){
         int[] result={-1,-1};
-        int[] sortedarray = Arrays.copyOf(arr, arr.length);
-
+        int[] sortedarray = Arrays.copyOf(arr, arr.length); // We do this to copy the array into a temp array
+                                                            // In that way we preserve the old array and the indices
         Arrays.sort(sortedarray);
         int left=0;
         int right=sortedarray.length-1;
@@ -44,8 +44,8 @@ public class TwoSumOptimal {
                 for(int i=0;i<arr.length;i++) { //2,6,5,8,9,16
                     if (arr[i] == twosum1) {
                         result[0] = i;
-                    }
-                    if(arr[i]==twosum2){
+                    }                           // Now that we found the two sum elements are present in the array.
+                    if(arr[i]==twosum2){        // We run a loop and find out the indices of the two sum elements
                         result[1]=i;
                     }
                 }
