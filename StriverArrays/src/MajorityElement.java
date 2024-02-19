@@ -69,6 +69,8 @@ public class MajorityElement {
         -Run a for loop and calculate the occurence of the majority element. Here we get majcount=5
         -Write an if condition if majcount > arr.length/2 then return maj count or return -1.
         -Here 5 > 9/2 => 5 > 4. So we can consider 2 as the majority element.
+        -TC: O(n)
+        -SC: O(1)
 
          */
 
