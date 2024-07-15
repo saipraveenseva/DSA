@@ -1,25 +1,32 @@
+// Program to count the digits in a number N that evenly divides N.
+
+import java.util.Scanner;
+
 public class CountDigits {
 
     public static void main(String[] args) {
 
-        int n=980;
-        int d=n;
-        int p;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a number: ");
+
+        int input=sc.nextInt();
+        int N=input;
         int count=0;
-        int divcount=0;
-        while(d>0){
-            p=d%10;
-            if(p!=0) { // To avoid divide by zero exception
-                if (n % p == 0) { //Dividing n with each digit, if it is divisible we do divcount++ hello
-                    divcount++;
+        int digitcount=0;
+
+        while(N!=0){
+            int digit=N%10;
+             // To avoid divide by zero exception
+                if (digit!=0 && input%digit==0) { //Dividing n with each digit, if it is divisible we do digitcount++
+                    digitcount++;
                 }
-            }
-            d=d/10;
+                N=N/10;
             count++; // This just counts the number of digits.
 
         }
         System.out.println("Digit count: "+count);
-        System.out.println("Div count: "+divcount);
+        System.out.println("Div count: "+digitcount);
     }
 
 }
