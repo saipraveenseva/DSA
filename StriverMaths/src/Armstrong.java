@@ -9,7 +9,7 @@ public class Armstrong {
 
         while(p>0){
             p=p/10;
-            count++;            // THis loop finds the no of digits
+            count++;            // This loop finds the no of digits
         }
 
         int q=n;

@@ -33,7 +33,7 @@ public class GCD {
 //               a=a%b;
 //           }
 //           else {
-//               b=b%a;         // Optimal soultion O(log(min(a,b))) where a>b.
+//               b=b%a;         // Optimal solution O(log(min(a,b))) where a>b.
 //           }
 //       }
 //        if(a==0)
@@ -45,7 +45,7 @@ public class GCD {
         }
         else {
             if(a>b) {
-                gcd=GCD(a - b, b);
+                gcd=GCD(a - b, b);      //Euclidean Algortihm
             }
             else{
                 gcd=GCD(b-a,a);
